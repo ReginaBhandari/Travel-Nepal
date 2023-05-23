@@ -1,0 +1,35 @@
+.addDest {
+  display: block;
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+  z-index: 10;
+  cursor: pointer;
+  border-radius: 50%;
+  /* background-color: #1900ff39; */
+  padding: 1rem;
+}
+.addDest button a svg {
+  color: white;
+}
+AiOutlineEdit {
+  height: 1.5rem;
+}
+AiOutlineEdit:hover {
+  color: white;
+}
+.booking {
+  display: block;
+  position: fixed;
+  bottom: 7rem;
+  right: 2rem;
+  z-index: 10;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.booking button a {
+  color: white;
+}
+.booking button a svg {
+  color: white;
+}

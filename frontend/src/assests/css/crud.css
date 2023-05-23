@@ -1,0 +1,82 @@
+.destinationcrud {
+  margin: 1rem;
+}
+.destinationcrud h1 {
+  text-align: center;
+  word-spacing: 0.4rem;
+}
+.destinationcrud-list {
+  display: flex;
+  /* gap: 10px; */
+  flex-wrap: wrap;
+}
+.destinationcrud-list div {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.destinationcrud-list button {
+  width: fit-content;
+  margin-top: 20px;
+}
+.destinationcrud-list div img {
+  height: 150px;
+}
+.destinationcrud-list > div {
+  flex: 40%;
+  /*demo*/
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+  border: 1px solid #c5c8c9;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+  transition: 0.3s all linear;
+}
+.destinationcrud-list > div:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.destination-price {
+  width: 110px;
+}
+.delete-destination {
+  padding: 2rem;
+}
+.destination-image-link ul li {
+  list-style-type: none;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin: 0px auto;
+}
+.image-container button {
+  margin: 10px 0px 10px 8px;
+}
+.destination-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 1px solid #c5c8c9;
+  border-radius: 1rem;
+  transition: 0.3s all linear;
+  text-align: left;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.destination-card h3 {
+  padding: 0.5rem;
+}
+.destination-card img {
+  height: 200px;
+}
+.destination-card:hover {
+  transform: translateY(-0.1rem);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.display-destination table tbody tr {
+  cursor: pointer;
+}

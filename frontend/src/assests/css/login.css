@@ -1,0 +1,99 @@
+.main {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f3f3;
+  padding: 10px;
+  height: 80vh;
+  border: 1px solid #0077b6;
+  border-radius: 10px;
+  margin: 0px auto;
+}
+form {
+  width: 70%;
+}
+.heading {
+  font-weight: bold;
+  padding: 2rem;
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+button {
+  margin-right: 10px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: none;
+  color: #ffffff;
+  background-color: #48cae4;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  transition: 0.3s ease-in-out;
+  margin: 10px 0px;
+  display: block;
+}
+button:hover {
+  background-color: #023e8a;
+}
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.mainLoginInput {
+  padding: 10px;
+  margin: 10px 0px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #0077b6;
+}
+
+.mainLoginInput:focus {
+  border: 1px solid #023e8a;
+}
+
+.mainLoginInput::-webkit-input-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: #0077b6;
+}
+
+.mainLoginInput::-moz-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: #0077b6;
+}
+
+.mainLoginInput:-ms-input-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: #0077b6;
+}
+@media screen and (max-width: 1024px) {
+  .main {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    padding: 0px;
+  }
+  .main {
+    width: 90%;
+  }
+}

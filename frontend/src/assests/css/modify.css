@@ -1,0 +1,24 @@
+.modify .add-destination {
+  width: 80%;
+  margin: 0px auto;
+}
+.modify form {
+  width: 70%;
+  margin: 0px auto;
+}
+.modify form input,
+.modify form textarea {
+  width: 70%;
+}
+.modify .title p {
+  padding: 0px;
+}
+.modify button {
+  width: fit-content;
+  margin: 10px auto 20px;
+}
+.modify-destination-img {
+  height: 250px;
+  overflow: hidden;
+ 
+}
